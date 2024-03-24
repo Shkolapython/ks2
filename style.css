@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+
+h1{
+    font-size: 70px;
+    color: rgb(178, 242, 253);
+    text-align: center;
+       
+
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin: 0 30px;
+    background-color: lightblue;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(12, 166, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+
+.product::before {
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+header{
+    background-color: rgb(86, 174, 255);
+}
+h3{
+    font-size: 70px;
+    color: rgb(211, 201, 255);
+}
+iframe{
+    border: 4px double black;
+}
+img:hover{
+     width: 150px;
+    height: 150px;
+}
